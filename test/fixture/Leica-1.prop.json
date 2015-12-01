@@ -1,0 +1,59 @@
+{
+  "leica": {
+    "aperture": 0.4,
+    "barcode": "04050629C",
+    "creation-date": "2011-05-31T09:43:06.873Z",
+    "device-model": "Leica SCN400;Leica SCN",
+    "device-version": "1.4.0.9691 2011/03/30 10:30:59;1.4.0.9708",
+    "illumination-source": "brightfield",
+    "objective": 20
+  },
+  "openslide": {
+    "bounds-height": 38432,
+    "bounds-width": 36832,
+    "bounds-x": 10778,
+    "bounds-y": 35096,
+    "level-count": 5,
+    "level[0]": {
+      "downsample": 1,
+      "height": 153470,
+      "width": 53130
+    },
+    "level[1]": {
+      "downsample": 3.999898652415998,
+      "height": 38368,
+      "width": 13283
+    },
+    "level[2]": {
+      "downsample": 15.998992404088622,
+      "height": 9592,
+      "width": 3321
+    },
+    "level[3]": {
+      "downsample": 63.92710919186801,
+      "height": 2401,
+      "width": 831
+    },
+    "level[4]": {
+      "downsample": 255.3952147062588,
+      "height": 601,
+      "width": 208
+    },
+    "mpp-x": 0.5,
+    "mpp-y": 0.5,
+    "objective-power": 20,
+    "quickhash-1": "f600ae1d83abaa21b6fda9284ff35a51d7031f60854b5674fac88c8ac6d66298",
+    "region[0]": {
+      "height": 38432,
+      "width": 36832,
+      "x": 10778,
+      "y": 35096
+    },
+    "vendor": "leica"
+  },
+  "tiff": {
+    "ResolutionUnit": "centimeter",
+    "XResolution": 20000,
+    "YResolution": 20000
+  }
+}

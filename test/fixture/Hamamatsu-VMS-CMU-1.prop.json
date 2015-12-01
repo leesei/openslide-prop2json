@@ -1,0 +1,82 @@
+{
+  "hamamatsu": {
+    "AuthCode": 635108335,
+    "ImageFile": "CMU-1-40x - 2010-01-12 13.24.05.jpg",
+    "ImageFile(0,1)": "CMU-1-40x - 2010-01-12 13.24.05(0,1).jpg",
+    "ImageFile(1,0)": "CMU-1-40x - 2010-01-12 13.24.05(1,0).jpg",
+    "ImageFile(1,1)": "CMU-1-40x - 2010-01-12 13.24.05(1,1).jpg",
+    "LayerSpacing": 2032236150,
+    "MacroImage": "CMU-1-40x - 2010-01-12 13.24.05_macro.jpg",
+    "MapFile": "CMU-1-40x - 2010-01-12 13.24.05_map2.jpg",
+    "NoJpegColumns": 2,
+    "NoJpegRows": 2,
+    "NoLayers": 1,
+    "OptimisationFile": "CMU-1-40x - 2010-01-12 13.24.05.opt",
+    "PhysicalHeight": 17357904,
+    "PhysicalMacroHeight": 26000000,
+    "PhysicalMacroWidth": 76000000,
+    "PhysicalWidth": 23367500,
+    "Reference": "CMU-1-40x",
+    "SourceLens": 40,
+    "XOffsetFromSlideCentre": 4876667,
+    "YOffsetFromSlideCentre": -2340000
+  },
+  "openslide": {
+    "comment": "Hamamatsu NanoZoomer Digital Pathology",
+    "level-count": 7,
+    "level[0]": {
+      "downsample": 1,
+      "height": 76288,
+      "tile-height": 8,
+      "tile-width": 4096,
+      "width": 102400
+    },
+    "level[1]": {
+      "downsample": 2,
+      "height": 38144,
+      "tile-height": 4,
+      "tile-width": 2048,
+      "width": 51200
+    },
+    "level[2]": {
+      "downsample": 4,
+      "height": 19072,
+      "tile-height": 2,
+      "tile-width": 1024,
+      "width": 25600
+    },
+    "level[3]": {
+      "downsample": 8,
+      "height": 9536,
+      "tile-height": 8,
+      "tile-width": 512,
+      "width": 12800
+    },
+    "level[4]": {
+      "downsample": 16,
+      "height": 4768,
+      "tile-height": 4,
+      "tile-width": 256,
+      "width": 6400
+    },
+    "level[5]": {
+      "downsample": 32,
+      "height": 2384,
+      "tile-height": 2,
+      "tile-width": 128,
+      "width": 3200
+    },
+    "level[6]": {
+      "downsample": 64,
+      "height": 1192,
+      "tile-height": 1,
+      "tile-width": 64,
+      "width": 1600
+    },
+    "mpp-x": 0.2281982421875,
+    "mpp-y": 0.22753125,
+    "objective-power": 40,
+    "quickhash-1": "6f461a1e85ca672477b791e1ce5155bfbeec83c28c91263cf596db82f80ec7a5",
+    "vendor": "hamamatsu"
+  }
+}
