@@ -20,6 +20,5 @@ openslide-show-properties Leica-1.scn | openslide-prop2json
 
 ## TODO
 
-- [test] individual tests for each file in `./lib/`
 - [`transform.js`] transform `openslide.level[]` as array
 - [`convert.js`] add blacklist for field conversion

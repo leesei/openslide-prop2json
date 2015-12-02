@@ -9,8 +9,8 @@
   "bin": "./index.js",
   "preferGlobal": true,
   "scripts": {
-    "test": "lab -a code -t 100",
-    "test-cov-html": "lab -a code -t 100 -r html -o coverage.html"
+    "test": "lab -t 100",
+    "test-cov-html": "lab -t 100 -r html -o coverage.html"
   },
   "engines": {
     "node": ">=4.0.0"
