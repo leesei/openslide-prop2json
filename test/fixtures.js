@@ -14,30 +14,30 @@ const expect = Code.expect;
 const ParseProp = require('../lib/parse');
 const Transform = require('../lib/transform');
 
-const OPENSLIDE_PROPS = [
+const OPENSLIDE_PROPS_FIXTURES = [
   {
-    source: './fixture/Aperio-CMU-1-JP2K-33005.prop',
-    expected: './fixture/Aperio-CMU-1-JP2K-33005.json'
+    source: './fixtures/Aperio-CMU-1-JP2K-33005.prop',
+    expected: './fixtures/Aperio-CMU-1-JP2K-33005.json'
   },
   {
-    source: './fixture/Generic-CMU-1.prop',
-    expected: './fixture/Generic-CMU-1.json'
+    source: './fixtures/Generic-CMU-1.prop',
+    expected: './fixtures/Generic-CMU-1.json'
   },
   {
-    source: './fixture/Hamamatsu-VMS-CMU-1.prop',
-    expected: './fixture/Hamamatsu-VMS-CMU-1.json'
+    source: './fixtures/Hamamatsu-VMS-CMU-1.prop',
+    expected: './fixtures/Hamamatsu-VMS-CMU-1.json'
   },
   {
-    source: './fixture/Leica-1.prop',
-    expected: './fixture/Leica-1.json'
+    source: './fixtures/Leica-1.prop',
+    expected: './fixtures/Leica-1.json'
   },
   {
-    source: './fixture/MIRAX-CMU-1-Saved-1_2.prop',
-    expected: './fixture/MIRAX-CMU-1-Saved-1_2.json'
+    source: './fixtures/MIRAX-CMU-1-Saved-1_2.prop',
+    expected: './fixtures/MIRAX-CMU-1-Saved-1_2.json'
   }
 ];
 
-OPENSLIDE_PROPS.forEach((fixture) => {
+OPENSLIDE_PROPS_FIXTURES.forEach((fixture) => {
   describe(`fixture [${fixture.source}]`, () => {
     let inputStream = Fs.createReadStream(Path.resolve(__dirname, fixture.source));
     let expectedJson = JSON.parse(Fs.readFileSync(Path.resolve(__dirname, fixture.expected), 'utf8'));
