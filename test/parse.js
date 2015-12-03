@@ -1,8 +1,6 @@
 'use strict';
 
-const Fs = require('fs');
 const ReadableStream = require('stream').Readable;
-const Path = require('path');
 const Code = require('code');
 const Lab = require('lab');
 
@@ -17,7 +15,6 @@ const ParseProp = require('../lib/parse');
 describe(`ParseProp()`, () => {
   it('parses prop correctly (with verbose)', (done) => {
     let inputStream = new ReadableStream();
-    // inputStream._read = function noop () {};
     inputStream.push("keyInt: '42'\n");
     inputStream.push("keyFloat: '3.1415926'\n");
     inputStream.push("keyHex: '0xbeef'\n");
