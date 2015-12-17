@@ -11,8 +11,7 @@ const describe = lab.experiment;
 const it = lab.test;
 const expect = Code.expect;
 
-const ParseProp = require('../lib/parse');
-const Transform = require('../lib/transform');
+const prop2json = require('..');
 
 const OPENSLIDE_PROPS_FIXTURES = [
   {
@@ -43,8 +42,9 @@ OPENSLIDE_PROPS_FIXTURES.forEach((fixture) => {
     let expectedJson = JSON.parse(Fs.readFileSync(Path.resolve(__dirname, fixture.expected), 'utf8'));
 
     it('parses correctly', (done) => {
-      ParseProp(inputStream, {}, prop => {
-        expect(Transform(prop)).to.deep.equal(expectedJson);
+      prop2json(inputStream, {}, (err, prop) => {
+        expect(err).to.be.null;
+        expect(prop).to.deep.equal(expectedJson);
         done();
       });
     });

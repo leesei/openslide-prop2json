@@ -9,17 +9,35 @@ It will also automatically convert number and boolean fields.
 ## Install
 
 ```sh
-npm install openslide-prop2json -g
+npm install openslide-prop2json -g  # CLI
+npm install openslide-prop2json     # as module
 ```
 
 ## Usage
 
+### CLI
+
 ```sh
+# load properties file
 openslide-show-properties Leica-1.scn > Leica-1.prop
 openslide-prop2json Leica-1.prop
-# OR 
+# OR in a pipe
 openslide-show-properties Leica-1.scn | openslide-prop2json
 ```
+
+### As Module
+
+```json
+const prop2json = require('openslide-prop2json');
+prop2json(inputStream, options, (err, prop) => {
+  console.log(JSON.stringify(prop, null, 2));
+});
+```
+
+### Debug logs
+
+Supported DEBUG tags = *parse*.
+See [visionmedia/debug](https://github.com/visionmedia/debug/) for details.
 
 ## TODO
 

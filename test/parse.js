@@ -27,7 +27,9 @@ describe(`ParseProp()`, () => {
     inputStream.push("key.bracket[1]: 'value'\n");
     inputStream.push(null);
 
-    ParseProp(inputStream, {verbose: true}, prop => {
+    ParseProp(inputStream, {}, (err, prop) => {
+      expect(err).to.be.null;
+
       expect(prop.keyInt).to.be.a.number();
       expect(prop.keyInt).to.equal(42);
 
@@ -61,7 +63,9 @@ describe(`ParseProp()`, () => {
     inputStream.push("keyInt: '42'");
     inputStream.push(null);
 
-    ParseProp(inputStream, {}, prop => {
+    ParseProp(inputStream, {}, (err, prop) => {
+      expect(err).to.be.null;
+
       expect(prop).to.be.empty();
       done();
     });
@@ -73,7 +77,9 @@ describe(`ParseProp()`, () => {
     inputStream.push('key: value\n');
     inputStream.push(null);
 
-    ParseProp(inputStream, {}, prop => {
+    ParseProp(inputStream, {}, (err, prop) => {
+      expect(err).to.be.null;
+
       expect(prop).to.be.empty();
       done();
     });
@@ -88,7 +94,9 @@ describe(`ParseProp()`, () => {
     inputStream.push('key4: value\n');
     inputStream.push(null);
 
-    ParseProp(inputStream, {}, prop => {
+    ParseProp(inputStream, {}, (err, prop) => {
+      expect(err).to.be.null;
+
       expect(prop).to.deep.equal({
         key1: 'value',
         key3: 'value'
