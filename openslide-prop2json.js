@@ -9,20 +9,22 @@ const pkg = require('./package.json');
 Program
   .version(pkg.version)
   .description(pkg.description)
-  .usage('[options] <prop-file>');
+  .arguments('[prop-file]')
+  .action((propFile) => {
+    Program.propFile = propFile;
+  });
 
 Program.on('--help', () => {
   console.log(
-    '  Supported DEBUG tags = [parse].\n' +
-    '  See https://github.com/visionmedia/debug/ for details.'
+    '  See https://github.com/leesei/openslide-prop2json#readme for details.'
   );
 });
 
 Program.parse(process.argv);
 
 // choose input stream, use stdin if no input arguments
-const inputStream = Program.args.length
-  ? Fs.createReadStream(Program.args[0])
+const inputStream = Program.propFile
+  ? Fs.createReadStream(Program.propFile)
   : process.stdin;
 
 prop2json(inputStream, Program, (err, prop) => {
