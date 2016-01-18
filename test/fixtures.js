@@ -15,6 +15,10 @@ const prop2json = require('..');
 
 const OPENSLIDE_PROPS_FIXTURES = [
   {
+    source: './fixtures/1610167-13.01.prop',
+    expected: './fixtures/1610167-13.01.json'
+  },
+  {
     source: './fixtures/Aperio-CMU-1-JP2K-33005.prop',
     expected: './fixtures/Aperio-CMU-1-JP2K-33005.json'
   },

@@ -24,7 +24,8 @@ describe(`ParseProp()`, () => {
     inputStream.push("keyNewline: 'value\nwith\nnewline'\n");
     inputStream.push("key.with.dot: 'value'\n");
     inputStream.push("key.bracket[0]: 'value'\n");
-    inputStream.push("key.bracket[1]: 'value'\n");
+    inputStream.push("key.bracket[1].key1: 'value1'\n");
+    inputStream.push("key.bracket[1].key2: 'value2'\n");
     inputStream.push(null);
 
     ParseProp(inputStream, {}, (err, prop) => {
@@ -52,8 +53,11 @@ describe(`ParseProp()`, () => {
 
       expect(prop['key.bracket[0]']).to.be.a.string();
       expect(prop['key.bracket[0]']).to.equal('value');
-      expect(prop['key.bracket[1]']).to.be.a.string();
-      expect(prop['key.bracket[1]']).to.equal('value');
+      expect(prop['key.bracket[1].key1']).to.be.a.string();
+      expect(prop['key.bracket[1].key1']).to.equal('value1');
+      expect(prop['key.bracket[1].key2']).to.be.a.string();
+      expect(prop['key.bracket[1].key2']).to.equal('value2');
+
       done();
     });
   });

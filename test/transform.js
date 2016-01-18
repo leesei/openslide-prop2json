@@ -17,7 +17,8 @@ describe(`Transform()`, () => {
       keyInt: 42,
       'key.with.dot': 'value',
       'key.bracket[0]': 'value',
-      'key.bracket[1]': 'value'
+      'key.bracket[1].key1': 'value1',
+      'key.bracket[1].key2': 'value2'
     };
 
     const expected = {
@@ -27,7 +28,27 @@ describe(`Transform()`, () => {
           dot: 'value'
         },
         'bracket[0]': 'value',
-        'bracket[1]': 'value'
+        'bracket[1]': {
+          key1: 'value1',
+          key2: 'value2'
+        }
+      }
+    };
+
+    expect(Transform(input)).to.deep.equal(expected);
+    done();
+  });
+
+  it('handles invalid key path', (done) => {
+    // this was encountered in a Hamamatsu file
+    var input = {
+      'key': 'value',
+      'key.sub': 'value'
+    };
+
+    const expected = {
+      key: {
+        sub: 'value'
       }
     };
 

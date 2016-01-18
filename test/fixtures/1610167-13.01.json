@@ -1,0 +1,223 @@
+{
+  "hamamatsu": {
+    "AHEX[0]": {
+      "fluorescence": "8813342FC9017C112C2BC9057809301FBD117C0F202FC1056C1F1C3BB8006C1B1437B4006C171037B00364130833AD0764130037AC00680F082BB10768070C23AD116C071027B10F701B1437B40170031C1FB51174132427B5037C0F2827BD0B1B51",
+      "ploidy": "8813342FC9017C112C2BC9057809301FBD117C0F202FC1056C1F1C3BB8006C1B1437B4006C171037B00364130833AD0764130037AC00680F082BB10768070C23AD116C071027B10F701B1437B40170031C1FB51174132427B5037C0F2827BD0B1B51"
+    },
+    "AHEX[1]": {
+      "fluorescence": "9017402FCC038813382FCC00840D3C1FC50D84132C33C4007421283FC005741B2037BC03741B1C37B8096C171437B10370170C37B0037013142FB503700B1827B50F780B2027B90B781F2437BC037C07281FB90F7C17302BBD038411342BC507D89A",
+      "ploidy": "9017402FCC038813382FCC00840D3C1FC50D84132C33C4007421283FC005741B2037BC03741B1C37B8096C171437B10370170C37B0037013142FB503700B1827B50F780B2027B90B781F2437BC037C07281FB90F7C17302BBD038411342BC507D89A"
+    },
+    "AHEX[2]": {
+      "fluorescence": "8813342FC9017C112C2BC9057809301FBD117C0F202FC1056C1F1C3BB8006C1B1437B4006C171037B00364130833AD0764130037AC00680F082BB10768070C23AD116C071027B10F701B1437B40170031C1FB51174132427B5037C0F2827BD0B1B51",
+      "ploidy": "8813342FC9017C112C2BC9057809301FBD117C0F202FC1056C1F1C3BB8006C1B1437B4006C171037B00364130833AD0764130037AC00680F082BB10768070C23AD116C071027B10F701B1437B40170031C1FB51174132427B5037C0F2827BD0B1B51"
+    },
+    "Created": "2011/04/27",
+    "MHLN[0]": {
+      "24bit": "_1357CJJPMKOWZjx",
+      "36bit": "_1357GGEPMKOWZjx"
+    },
+    "MHLN[1]": {
+      "24bit": "_1357FHEPMKOWZjx",
+      "36bit": "_1359DEEPMKOWZjx"
+    },
+    "MHLN[2]": {
+      "24bit": "_1357CJJPMKOWZjx",
+      "36bit": "_1357DEEPMKOWZjx"
+    },
+    "Macro": {
+      "S/N": 940408
+    },
+    "NDP": {
+      "S/N": 940289
+    },
+    "Objective": {
+      "Lens": {
+        "Magnificant": 35.16
+      }
+    },
+    "PSHV": {
+      "10x": 170,
+      "40x": 218,
+      "ploidy": {
+        "10x": 140
+      }
+    },
+    "Product": "C9600-12",
+    "Reference": "1610167-13.01",
+    "SourceLens": 40,
+    "Updated": "2015/12/21",
+    "XOffsetFromSlideCentre": 19191918,
+    "YOffsetFromSlideCentre": 1216748,
+    "YRNP[0]": "0,0,0,0",
+    "YRNP[1]": "0,0,0,0",
+    "YRNP[2]": "0,0,0,0",
+    "calibration": {
+      "version": 248
+    },
+    "ccd": {
+      "height": 0,
+      "width": {
+        "ploidy": 9302
+      }
+    },
+    "coarse": {
+      "focus": {
+        "pitch": 4870
+      }
+    },
+    "colorfilterID": 1,
+    "cube": {
+      "kind": 0
+    },
+    "exposure": {
+      "barcode": {
+        "macro": 270
+      },
+      "slide": {
+        "darkfield": {
+          "macro": 10
+        },
+        "macro": 20
+      }
+    },
+    "fine": {
+      "focus": {
+        "pitch": 250
+      }
+    },
+    "focalplane": {
+      "leftbottom": "84542,689623,107581",
+      "lefttop": "84542,489623,107139",
+      "rightbottom": "484542,689623,107914",
+      "righttop": "484542,489623,107541"
+    },
+    "lane": {
+      "shift": {
+        "amount": 1
+      }
+    },
+    "roi": {
+      "barcode": {
+        "macro": "922,374,1259,800"
+      },
+      "slide": {
+        "macro": "63,380,1252,788"
+      }
+    },
+    "slant": {
+      "leftbottom": "85765,690134,108783",
+      "lefttop": "85765,490134,108340",
+      "rightbottom": "485765,490134,108670",
+      "righttop": "485765,690134,109048"
+    },
+    "slide": {
+      "tickness": 0
+    },
+    "stage": {
+      "center": "174424,589359"
+    },
+    "system": {
+      "version": 1
+    },
+    "target": {
+      "white": {
+        "intensity": 235
+      }
+    },
+    "valid": {
+      "DDKP": 1,
+      "DLTP": 0,
+      "DSHP": 1
+    },
+    "variable": {
+      "exposuretime": 0
+    },
+    "zCoarse[0]": "1,7392,0,100",
+    "zCoarse[1]": "1,1946,0,100",
+    "zCoarse[2]": "0,0,0,0",
+    "zFine[0]": "1,295680,0,100",
+    "zFine[1]": "1,77824,0,100",
+    "zFine[2]": "0,0,0,0"
+  },
+  "openslide": {
+    "level-count": 9,
+    "level[0]": {
+      "downsample": 1,
+      "height": 43264,
+      "tile-height": 8,
+      "tile-width": 4096,
+      "width": 69632
+    },
+    "level[1]": {
+      "downsample": 2,
+      "height": 21632,
+      "tile-height": 4,
+      "tile-width": 2048,
+      "width": 34816
+    },
+    "level[2]": {
+      "downsample": 4,
+      "height": 10816,
+      "tile-height": 8,
+      "tile-width": 1024,
+      "width": 17408
+    },
+    "level[3]": {
+      "downsample": 8,
+      "height": 5408,
+      "tile-height": 4,
+      "tile-width": 512,
+      "width": 8704
+    },
+    "level[4]": {
+      "downsample": 16,
+      "height": 2704,
+      "tile-height": 8,
+      "tile-width": 256,
+      "width": 4352
+    },
+    "level[5]": {
+      "downsample": 32,
+      "height": 1352,
+      "tile-height": 4,
+      "tile-width": 128,
+      "width": 2176
+    },
+    "level[6]": {
+      "downsample": 64,
+      "height": 676,
+      "tile-height": 676,
+      "tile-width": 1088,
+      "width": 1088
+    },
+    "level[7]": {
+      "downsample": 128,
+      "height": 338,
+      "tile-height": 338,
+      "tile-width": 544,
+      "width": 544
+    },
+    "level[8]": {
+      "downsample": 256,
+      "height": 169,
+      "tile-height": 169,
+      "tile-width": 272,
+      "width": 272
+    },
+    "mpp-x": 0.22766596849102996,
+    "mpp-y": 0.22766078542970974,
+    "objective-power": 40,
+    "quickhash-1": "5d2883691ccdf5e78e038aaf36686e87acf410d2c910ce1624f190977a2bb009",
+    "vendor": "hamamatsu"
+  },
+  "tiff": {
+    "DateTime": "2016:01:13 16:08:37",
+    "Make": "Hamamatsu",
+    "Model": "C9600-12",
+    "ResolutionUnit": "centimeter",
+    "Software": "NDP.scan 2.5.89",
+    "XResolution": 43924,
+    "YResolution": 43925
+  }
+}

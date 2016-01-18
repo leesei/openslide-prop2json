@@ -36,7 +36,7 @@ prop2json(inputStream, options, (err, prop) => {
 
 ### Debug logs
 
-Supported DEBUG tags: *osp2j:parse*.  
+Supported DEBUG tags: *osp2j:parse*, *osp2j:transform*.  
 See [visionmedia/debug](https://github.com/visionmedia/debug/) for details.
 
 ## TODO
