@@ -1,7 +1,6 @@
 'use strict';
 
 const Fs = require('fs');
-const Path = require('path');
 const Code = require('code');
 const Lab = require('lab');
 

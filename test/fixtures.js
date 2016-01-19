@@ -47,7 +47,7 @@ OPENSLIDE_PROPS_FIXTURES.forEach((fixture) => {
 
     it('parses correctly', (done) => {
       prop2json(inputStream, {}, (err, prop) => {
-        expect(err).to.be.null;
+        expect(err).to.be.null();
         expect(prop).to.deep.equal(expectedJson);
         done();
       });
