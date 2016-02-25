@@ -11,7 +11,12 @@
     "type": "git",
     "url": "https://github.com/leesei/openslide-prop2json"
   },
-  "bin": "./openslide-prop2json.js",
+  "bin": "./cli.js",
+  "files": [
+    "index.js",
+    "cli.js",
+    "lib/"
+  ],
   "scripts": {
     "test": "lab -t 100",
     "test-cov": "lab -t 100 -r html -o coverage.html",
