@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "code": "^2.1.0",
-    "lab": "^8.0.2",
+    "lab": "^10.0.0",
     "semistandard": "^7.0.5"
   }
 }
