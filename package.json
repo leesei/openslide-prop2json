@@ -14,7 +14,7 @@
   "bin": "./openslide-prop2json.js",
   "scripts": {
     "test": "lab -t 100",
-    "test-cov-html": "lab -t 100 -r html -o coverage.html",
+    "test-cov": "lab -t 100 -r html -o coverage.html",
     "lint": "semistandard"
   },
   "dependencies": {
