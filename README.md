@@ -1,11 +1,12 @@
 # openslide-prop2json
 
-[![npm](https://img.shields.io/npm/v/openslide-prop2json.svg)](https://github.com/leesei/openslide-prop2json)
+[![Travis](https://img.shields.io/travis/leesei/openslide-prop2json.svg)](https://travis-ci.org/leesei/openslide-prop2json)
+[![Build status](https://ci.appveyor.com/api/projects/status/github/leesei/openslide-prop2json?branch=master&svg=true)](https://ci.appveyor.com/project/leesei/openslide-prop2json/branch/master)
+[![npm](https://badge.fury.io/js/openslide-prop2json.svg)](https://github.com/leesei/openslide-prop2json)  
 [![bitHound Overall Score](https://www.bithound.io/github/leesei/openslide-prop2json/badges/score.svg)](https://www.bithound.io/github/leesei/openslide-prop2json) 
 [![bitHound Dependencies](https://www.bithound.io/github/leesei/openslide-prop2json/badges/dependencies.svg)](https://www.bithound.io/github/leesei/openslide-prop2json/master/dependencies/npm) 
 [![bitHound Dev Dependencies](https://www.bithound.io/github/leesei/openslide-prop2json/badges/devDependencies.svg)](https://www.bithound.io/github/leesei/openslide-prop2json/master/dependencies/npm) 
 [![bitHound Code](https://www.bithound.io/github/leesei/openslide-prop2json/badges/code.svg)](https://www.bithound.io/github/leesei/openslide-prop2json)
-[![Travis](https://img.shields.io/travis/leesei/openslide-prop2json.svg)](https://travis-ci.org/leesei/openslide-prop2json)
 
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
