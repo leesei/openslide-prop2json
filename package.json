@@ -25,6 +25,7 @@
   "dependencies": {
     "commander": "^2.9.0",
     "debug": "^2.2.0",
+    "lab": "^10.2.0",
     "split": "^1.0.0"
   },
   "devDependencies": {
