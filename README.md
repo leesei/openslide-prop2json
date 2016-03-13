@@ -1,12 +1,25 @@
 # openslide-prop2json
 
-[![Travis](https://img.shields.io/travis/leesei/openslide-prop2json.svg)](https://travis-ci.org/leesei/openslide-prop2json)
-[![Build status](https://ci.appveyor.com/api/projects/status/github/leesei/openslide-prop2json?branch=master&svg=true)](https://ci.appveyor.com/project/leesei/openslide-prop2json/branch/master)
-[![npm](https://badge.fury.io/js/openslide-prop2json.svg)](https://github.com/leesei/openslide-prop2json)  
-[![bitHound Overall Score](https://www.bithound.io/github/leesei/openslide-prop2json/badges/score.svg)](https://www.bithound.io/github/leesei/openslide-prop2json) 
-[![bitHound Dependencies](https://www.bithound.io/github/leesei/openslide-prop2json/badges/dependencies.svg)](https://www.bithound.io/github/leesei/openslide-prop2json/master/dependencies/npm) 
-[![bitHound Dev Dependencies](https://www.bithound.io/github/leesei/openslide-prop2json/badges/devDependencies.svg)](https://www.bithound.io/github/leesei/openslide-prop2json/master/dependencies/npm) 
-[![bitHound Code](https://www.bithound.io/github/leesei/openslide-prop2json/badges/code.svg)](https://www.bithound.io/github/leesei/openslide-prop2json)
+[![NPM Version][npm-image]][npm-url]
+[![Linux Build][travis-image]][travis-url]
+[![Windows Build][appveyor-image]][appveyor-url]  
+[![bitHound Overall Score][bithound-image]][bithound-url]
+[![bitHound Dependencies][bithound-dep-image]][bithound-dep-url]
+[![bitHound Dev Dependencies][bithound-devdep-image]][bithound-dep-url]
+[![bitHound Code][bithound-code-image]][bithound-url]
+
+[npm-image]: https://img.shields.io/npm/v/openslide-prop2json.svg
+[npm-url]: https://npmjs.org/package/openslide-prop2json
+[travis-image]: https://img.shields.io/travis/leesei/openslide-prop2json.svg?label=linux
+[travis-url]: https://travis-ci.org/leesei/openslide-prop2json
+[appveyor-image]: https://img.shields.io/appveyor/ci/leesei/openslide-prop2json/master.svg?label=windows
+[appveyor-url]: https://ci.appveyor.com/project/leesei/openslide-prop2json
+[bithound-image]: https://www.bithound.io/github/leesei/openslide-prop2json/badges/score.svg
+[bithound-url]: https://www.bithound.io/github/leesei/openslide-prop2json
+[bithound-dep-image]: https://www.bithound.io/github/leesei/openslide-prop2json/badges/dependencies.svg
+[bithound-devdep-image]: https://www.bithound.io/github/leesei/openslide-prop2json/badges/devDependencies.svg
+[bithound-dep-url]: https://www.bithound.io/github/leesei/openslide-prop2json/master/dependencies/npm
+[bithound-code-image]: https://www.bithound.io/github/leesei/openslide-prop2json/badges/code.svg
 
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
