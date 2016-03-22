@@ -20,7 +20,7 @@
   "scripts": {
     "test": "lab -t 100",
     "test-cov": "lab -t 100 -r html -o coverage.html",
-    "lint": "semistandard"
+    "lint": "eslint"
   },
   "dependencies": {
     "commander": "^2.9.0",
