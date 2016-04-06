@@ -12,7 +12,7 @@ const expect = Code.expect;
 
 const prop2json = require('..');
 
-describe(`invalid input`, () => {
+describe('invalid input', () => {
   it('invalid stream should return error', (done) => {
     prop2json(null, {}, (err, prop) => {
       expect(err).to.be.an.instanceof(Error);

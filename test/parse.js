@@ -12,7 +12,7 @@ const expect = Code.expect;
 
 const ParseProp = require('../lib/parse');
 
-describe(`ParseProp()`, () => {
+describe('ParseProp()', () => {
   it('parses prop correctly (with verbose)', (done) => {
     let inputStream = new ReadableStream();
     inputStream.push("keyInt: '42'\n");

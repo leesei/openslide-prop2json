@@ -11,7 +11,7 @@ const expect = Code.expect;
 
 const Transform = require('../lib/transform');
 
-describe(`Transform()`, () => {
+describe('Transform()', () => {
   it('transforms correctly', (done) => {
     var input = {
       keyInt: 42,
