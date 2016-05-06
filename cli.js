@@ -12,7 +12,8 @@ Program
   .arguments('[prop-file]')
   .action((propFile) => {
     Program.propFile = propFile;
-  });
+  })
+  .option('-j, --json', 'Output JSON (not applicable for piped input)');
 
 Program.on('--help', () => {
   console.log(
@@ -31,5 +32,12 @@ prop2json(inputStream, Program, (err, prop) => {
   if (err) {
     return console.log(err);
   }
-  console.log(JSON.stringify(prop, null, 2));
+  if (Program.json && Program.propFile) {
+    Fs.writeFileSync(
+      // replace '.prop' or append to end
+      Program.propFile.replace(/.prop$|$/, '.json'),
+      JSON.stringify(prop, null, 2));
+  } else {
+    console.log(JSON.stringify(prop, null, 2));
+  }
 });
