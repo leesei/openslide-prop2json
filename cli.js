@@ -1,16 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-
 const Fs = require('fs');
 const Program = require('commander');
 const prop2json = require('.');
 const pkg = require('./package.json');
 
-Program
-  .version(pkg.version)
+Program.version(pkg.version)
   .description(pkg.description)
   .arguments('[prop-file]')
-  .action((propFile) => {
+  .action(propFile => {
     Program.propFile = propFile;
   })
   .option('-j, --json', 'Output JSON (not applicable for piped input)');
@@ -36,7 +33,8 @@ prop2json(inputStream, Program, (err, prop) => {
     Fs.writeFileSync(
       // replace '.prop' or append to end
       Program.propFile.replace(/.prop$|$/, '.json'),
-      JSON.stringify(prop, null, 2));
+      JSON.stringify(prop, null, 2)
+    );
   } else {
     console.log(JSON.stringify(prop, null, 2));
   }

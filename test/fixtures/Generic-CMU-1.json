@@ -1,69 +1,71 @@
 {
   "openslide": {
     "level-count": 9,
-    "level[0]": {
-      "downsample": 1,
-      "height": 32914,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 46000
-    },
-    "level[1]": {
-      "downsample": 2,
-      "height": 16457,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 23000
-    },
-    "level[2]": {
-      "downsample": 4.000121536217793,
-      "height": 8228,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 11500
-    },
-    "level[3]": {
-      "downsample": 8.000243072435586,
-      "height": 4114,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 5750
-    },
-    "level[4]": {
-      "downsample": 16.00048614487117,
-      "height": 2057,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 2875
-    },
-    "level[5]": {
-      "downsample": 32.01432201760585,
-      "height": 1028,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 1437
-    },
-    "level[6]": {
-      "downsample": 64.05093591147048,
-      "height": 514,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 718
-    },
-    "level[7]": {
-      "downsample": 128.10187182294095,
-      "height": 257,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 359
-    },
-    "level[8]": {
-      "downsample": 257.06193261173183,
-      "height": 128,
-      "tile-height": 256,
-      "tile-width": 256,
-      "width": 179
-    },
+    "level": [
+      {
+        "downsample": 1,
+        "height": 32914,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 46000
+      },
+      {
+        "downsample": 2,
+        "height": 16457,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 23000
+      },
+      {
+        "downsample": 4.000121536217793,
+        "height": 8228,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 11500
+      },
+      {
+        "downsample": 8.000243072435586,
+        "height": 4114,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 5750
+      },
+      {
+        "downsample": 16.00048614487117,
+        "height": 2057,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 2875
+      },
+      {
+        "downsample": 32.01432201760585,
+        "height": 1028,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 1437
+      },
+      {
+        "downsample": 64.05093591147048,
+        "height": 514,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 718
+      },
+      {
+        "downsample": 128.10187182294095,
+        "height": 257,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 359
+      },
+      {
+        "downsample": 257.06193261173183,
+        "height": 128,
+        "tile-height": 256,
+        "tile-width": 256,
+        "width": 179
+      }
+    ],
     "quickhash-1": "428aa6abf42c774234a463cb90e2cbf88423afc0217e46ec2e308f31e29f1a9f",
     "vendor": "generic-tiff"
   },

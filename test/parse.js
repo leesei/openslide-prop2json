@@ -1,11 +1,9 @@
-'use strict';
-
 const ReadableStream = require('stream').Readable;
 const Code = require('code');
 const Lab = require('lab');
 
 // Test shortcuts
-const lab = exports.lab = Lab.script();
+const lab = (exports.lab = Lab.script());
 const describe = lab.experiment;
 const it = lab.test;
 const expect = Code.expect;
@@ -13,7 +11,7 @@ const expect = Code.expect;
 const ParseProp = require('../lib/parse');
 
 describe('ParseProp()', () => {
-  it('parses prop correctly (with verbose)', (done) => {
+  it('parses prop correctly (with verbose)', done => {
     let inputStream = new ReadableStream();
     inputStream.push("keyInt: '42'\n");
     inputStream.push("keyFloat: '3.1415926'\n");
@@ -62,7 +60,7 @@ describe('ParseProp()', () => {
     });
   });
 
-  it('returns {} on prop without trailing newline', (done) => {
+  it('returns {} on prop without trailing newline', done => {
     let inputStream = new ReadableStream();
     inputStream.push("keyInt: '42'");
     inputStream.push(null);
@@ -76,7 +74,7 @@ describe('ParseProp()', () => {
   });
 
   // behavior is not well defined on invalid format
-  it.skip('invalid format 1', (done) => {
+  it.skip('invalid format 1', done => {
     let inputStream = new ReadableStream();
     inputStream.push('key: value\n');
     inputStream.push(null);
@@ -90,7 +88,7 @@ describe('ParseProp()', () => {
   });
 
   // behavior is not well defined on invalid format
-  it.skip('invalid format 2', (done) => {
+  it.skip('invalid format 2', done => {
     let inputStream = new ReadableStream();
     inputStream.push("key1: 'value'\n");
     inputStream.push('key2: value\n');
@@ -103,7 +101,7 @@ describe('ParseProp()', () => {
 
       expect(prop).to.deep.equal({
         key1: 'value',
-        key3: 'value'
+        key3: 'value',
       });
       done();
     });

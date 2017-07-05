@@ -414,51 +414,53 @@
     "bounds-x": 4960,
     "bounds-y": 44710,
     "level-count": 9,
-    "level[0]": {
-      "downsample": 1,
-      "height": 117638,
-      "width": 57230
-    },
-    "level[1]": {
-      "downsample": 2,
-      "height": 58819,
-      "width": 28615
-    },
-    "level[2]": {
-      "downsample": 4,
-      "height": 29409,
-      "width": 14307
-    },
-    "level[3]": {
-      "downsample": 8,
-      "height": 14704,
-      "width": 7153
-    },
-    "level[4]": {
-      "downsample": 16,
-      "height": 7352,
-      "width": 3576
-    },
-    "level[5]": {
-      "downsample": 32,
-      "height": 3676,
-      "width": 1788
-    },
-    "level[6]": {
-      "downsample": 64,
-      "height": 1838,
-      "width": 894
-    },
-    "level[7]": {
-      "downsample": 128,
-      "height": 919,
-      "width": 447
-    },
-    "level[8]": {
-      "downsample": 256,
-      "height": 459,
-      "width": 223
-    },
+    "level": [
+      {
+        "downsample": 1,
+        "height": 117638,
+        "width": 57230
+      },
+      {
+        "downsample": 2,
+        "height": 58819,
+        "width": 28615
+      },
+      {
+        "downsample": 4,
+        "height": 29409,
+        "width": 14307
+      },
+      {
+        "downsample": 8,
+        "height": 14704,
+        "width": 7153
+      },
+      {
+        "downsample": 16,
+        "height": 7352,
+        "width": 3576
+      },
+      {
+        "downsample": 32,
+        "height": 3676,
+        "width": 1788
+      },
+      {
+        "downsample": 64,
+        "height": 1838,
+        "width": 894
+      },
+      {
+        "downsample": 128,
+        "height": 919,
+        "width": 447
+      },
+      {
+        "downsample": 256,
+        "height": 459,
+        "width": 223
+      }
+    ],
     "mpp-x": 0.465,
     "mpp-y": 0.465,
     "objective-power": 20,
