@@ -24,17 +24,17 @@
     "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
   },
   "dependencies": {
-    "commander": "^2.11.0",
-    "debug": "^2.6.8",
+    "commander": "^2.18.0",
+    "debug": "^4.0.1",
     "lodash.set": "^4.3.2",
-    "split": "^1.0.0"
+    "split": "^1.0.1"
   },
   "devDependencies": {
-    "code": "^4.1.0",
-    "eslint": "^4.1.1",
-    "eslint-config-prettier": "^2.3.0",
-    "eslint-plugin-prettier": "^2.1.2",
-    "lab": "^14.1.0",
-    "prettier": "^1.5.2"
+    "code": "^5.2.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^2.7.0",
+    "lab": "^16.1.0",
+    "prettier": "^1.14.3"
   }
 }
